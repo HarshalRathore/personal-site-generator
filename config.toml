@@ -16,7 +16,7 @@ author = "Harshal Rathore"
 description = "Harshal Rathore's personal website"
 keywords = "blog,developer,personal"
 info = ["Full Stack Developer", "Open-Source Enthusiast", "Part time Magician"]
-avatarURL = "images/avatar.jpg"
+avatarURL = "images/46.png"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
 since = 2019
@@ -40,6 +40,26 @@ customCSS = []
 customSCSS = []
 # Custom JS
 customJS = []
+
+#[params.utterances]
+#  repo="harshalrathore/harshalrathore.github.io"
+#  issue-term="pathname"
+#  theme="gruvbox-dark"
+
+[params.giscus] # https://giscus.app
+  repo = "harshalrathore/harshalrathore.github.io"
+  repoID = "R_kgDOGmRA7Q"
+  category = "General"
+  categoryID = "DIC_kwDOGmRA7c4CX7Zl"
+  mapping = "title"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "1"
+  inputPosition = "bottom"
+  theme = "dark"
+  lang = "en"
+  loading = "lazy"
+
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
@@ -190,3 +210,23 @@ url = "projects/"
 #name = "Contato"
 #weight = 5
 #url = "contact/"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    linenos = true
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'catppuccin-mocha'
+    tabWidth = 4

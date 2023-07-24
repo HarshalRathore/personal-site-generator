@@ -1,3 +1,15 @@
++++
+authors = ["Harshal Rathore"]
+title = "Git for Beginners by Me"
+date = "2023-07-05"
+description = "Learn git tips & tricks "
+tags = [
+    "git",
+    "version-control",
+    "github",
+]
++++
+
 # Git for beginners by me
 
 Set git user info (assuming that you are the only user of this System)

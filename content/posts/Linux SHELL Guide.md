@@ -1,3 +1,15 @@
++++
+authors = ["Harshal Rathore"]
+title = "Linux SHELL Guide"
+date = "2022-07-15"
+description = "Learn Linux Shell command line for beginners"
+tags = [
+    "Linux",
+    "Shell-script",
+    "bash",
+    "cli",
+]
++++
 # Linux SHELL Guide
 
 Shows all hidden files and folders along with normal ones.
